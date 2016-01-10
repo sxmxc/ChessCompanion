@@ -1,6 +1,6 @@
 {
-  "name": "socket.io-chess",
-  "version": "0.2.0",
+  "name": "ChessCompanion",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node server.js"
