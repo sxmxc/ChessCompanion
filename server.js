@@ -55,5 +55,5 @@ socketRoutes.attach(io, DB);
 
 // And away we go
 server.listen(app.get('port'), function(){
-  console.log('Socket.IO Chess is listening on port ' + app.get('port'));
+  console.log('ChessCompanion is listening on port ' + app.get('port'));
 });
