@@ -1,36 +1,14 @@
 {
-  "name": "ChessCompanion",
-  "version": "1.0.0",
-  "description": "Chess companion game",
-  "keywords": [
-    "Node.js",
-    "application"
-  ],
-  "author": {
-    "name": "Steven McNeely",
-    "email": "steven.mcneely@live.com",
-    "url": "#"
-  },
-  "homepage": "#",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sxmxc/ChessCompanion"
-  },
-
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
-  },
-
-  "dependencies": {
-    "express": "~3.4.4",
-    "socket.io": "^0.9.17"
-  },
-  "devDependencies": {},
-  "bundleDependencies": [],
+  "name": "socket.io-chess",
+  "version": "0.2.0",
+  "private": true,
   "scripts": {
     "start": "node server.js"
   },
-  "private": true,
-  "main": "server.js"
+  "dependencies": {
+    "underscore": "1.5.x",
+    "express": "3.3.x",
+    "jade": "0.33.x",
+    "socket.io": "0.9.x"
+  }
 }

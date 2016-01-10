@@ -1,24 +1,39 @@
-Chess companion based on ChessJS
-=======
+# Description
 
+A real-time multi-player chess app using [node](https://github.com/joyent/node), [express](https://github.com/visionmedia/express), and of course [socket.io](https://github.com/LearnBoost/socket.io).
 
+A demo can currently be found at [chess.thebinarypenguin.com](http://chess.thebinarypenguin.com).
 
-# What it looks like
+# Other Projects
 
-https://desolate-beach-4073.herokuapp.com/
+This project is just a little something I threw together for personal education and isn't particularly polished. However the following projects are and should be checked out
 
-<img src="screenshot.png" />
+* [Chess.js](https://github.com/jhlywa/chess.js) A javascript chess engine
+* [Chess Hub](http://chesshub-benas.rhcloud.com/) A chess webapp based on [benas](https://github.com/benas)'s [gamehub.io](https://github.com/benas/gamehub.io) project
 
-# Features
-- Play chess with your friend
-- Support rooms: enter any room name (or append `#roomname` to URL) to create new room for you and your friend.
-- Working on implementing companion card game.
+# Getting Started
 
-# Run
-
+1. Download
 ```
-> npm install
-> node server.js
+git clone https://github.com/thebinarypenguin/socket.io-chess.git
 ```
 
-Application run at `http://localhost:5000`
+2. Install
+```
+cd socket.io-chess
+npm install
+```
+
+3. Run
+```
+node server.js
+```
+
+# License
+
+Licensed under the [MIT License](http://www.opensource.org/licenses/MIT)
+
+
+
+
+
